@@ -34,4 +34,13 @@ git merge repairPanelRow
 git add .
 git commit -m "combinar paneles a punto"
 
+git branch repairCloud
+git checkout repairCloud
+git checkout master
+git pull
+git merge repairCloud
+git add .
+git commit -m "combinar apaño nube"
+
+
 
