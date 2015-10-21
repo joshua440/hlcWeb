@@ -9,3 +9,7 @@
 - git checkout -b ramaJumbo
 - git add . 
 - git commit -m "jumbotrones agregados a rama" 
+- git checkout master
+- git merge ramaJumbo
+- git push
+- git checkout -b imagenesCirc4
