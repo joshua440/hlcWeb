@@ -1,0 +1,5 @@
+- git clone https://github.com/joshua440/hlcWeb.git
+- git status 
+- git add .
+- git commit -m "agrego el ficherito con mis comandos" 
+- git push 
