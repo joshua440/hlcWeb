@@ -14,3 +14,17 @@ git pull
 git merge row1
 git add .
 git commit -m "Combinar cabecera"
+
+git branch panelRow
+git checkout panelRow
+git add .
+git commit -m "paneles casi listos"
+
+git checkout master
+git pull
+git merge panelRow
+git add .
+git commit -m "combinar paneles casi listos"
+
+git branch repairPanelRow
+git checkout repairPanelRow
