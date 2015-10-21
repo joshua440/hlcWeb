@@ -7,3 +7,5 @@
 - git commit -m "Estructura básica de la web"
 - git push 
 - git checkout -b ramaJumbo
+- git add . 
+- git commit -m "jumbotrones agregados a rama" 
