@@ -1,32 +1,37 @@
-.header{
+.header {
     height: 100vh;
     background-image: url("imagenes/background.jpg");
 }
-.vAlignMid{
-    vertical-align:middle;
+
+.vAlignMid {
+    vertical-align: middle;
     color: white;
 }
+
 .centrar {
-     text-align: center;   
+    text-align: center;
 }
+
 .jumbotron {
     background-color: #f3f3f3;
 }
+
 #celeste {
     background-color: #40aef7;
-    color:white;
+    color: white;
 }
-.auxBody{
+
+.auxBody {
     background-color: #F0F0F0;
     color: #777;
 }
+
+.panel {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
 #socialMedia {
     color: #40aef7;
-}
-.header{
-    height: 100vh;
-    background-image: url("imagenes/background.jpg");
-}
-.header h1{
-    vertical-align: middle;
 }
