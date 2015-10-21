@@ -8,6 +8,9 @@
     background-color: #40aef7;
     color:white;
 }
+#socialMedia {
+    color: #40aef7;
+}
 .header{
     height: 100vh;
     background-image: url("imagenes/background.jpg");
