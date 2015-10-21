@@ -28,3 +28,10 @@ git commit -m "combinar paneles casi listos"
 
 git branch repairPanelRow
 git checkout repairPanelRow
+git checkout master
+git pull
+git merge repairPanelRow
+git add .
+git commit -m "combinar paneles a punto"
+
+
