@@ -23,10 +23,12 @@
 #socialMedia {
     color: #40aef7;
 }
-.header{
-    height: 100vh;
-    background-image: url("imagenes/background.jpg");
+footer {
+    background-color: #194695;
+    color: #f7e8e8;
+    padding-bottom: 35px;
 }
-.header h1{
-    vertical-align: middle;
+footer img {
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
