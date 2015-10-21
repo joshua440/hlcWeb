@@ -1,0 +1,6 @@
+git add .
+git commit -m "Plantilla con bootstrap"
+git push
+
+git branch row1
+git checkout row1
