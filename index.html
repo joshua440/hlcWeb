@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <!-- Se debe utilizar el juego de caracteres utf-8 -->
-        <meta charset="UTF-8">
-        <!-- IE debe usar el último motor de renderizado -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!-- La página debe ocupar todo el ancho disponible en el navegador del dispositivo -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Mi primera aplicación Bootstrap</title>
-        <!-- Se vincula el archivo CSS de Bootstrap -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Tema opcional -->
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <!-- Se cargan los scripts necesarios para que Bootstrap funcione 
+
+<head>
+    <!-- Se debe utilizar el juego de caracteres utf-8 -->
+    <meta charset="UTF-8">
+    <!-- IE debe usar el último motor de renderizado -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- La página debe ocupar todo el ancho disponible en el navegador del dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi primera aplicación Bootstrap</title>
+    <!-- Se vincula el archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Tema opcional -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!-- Se cargan los scripts necesarios para que Bootstrap funcione 
             con HTML 5 y CSS 3 en IE8+ -->
-        <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
                 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
                 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
             <![endif]-->
-        <!-- CSS propio que machaca al css de bootstrap -->
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
+    <!-- CSS propio que machaca al css de bootstrap -->
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        </header>
-        <section>
+<body>
+    <header>
 
-        </section>
-        <foote>
+    </header>
+    <section class="container">
+        <div class="jumbotron">
+            <h2 class="centrar">Awesome Features</h2>
+            <p class="centrar">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        </div>
+        <div class="jumbotron">
+            <h2 class="centrar">We Have Plans</h2>
+            <p class="centrar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt neque odio et, ratione cum distinctio necessitatibus, quia veritatis dolor minus repellendus rerum nam sint, pariatur maiores commodi nihil? Deleniti, nemo.</p>
+        </div>
+    </section>
+    <footer>
 
-        </foote>
+    </footer>
     <!-- Se cargan los archivos JavaScript de jQuery y Bootstrap -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
