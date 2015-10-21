@@ -1,33 +1,57 @@
-.header{
+body {
+    font-family: 'Calibri Light', serif;
+}
+h2 {
+    font-size: 38px;
+}
+h3 {
+    font-size: 30px;    
+}
+
+.header {
     height: 100vh;
     background-image: url("imagenes/background.jpg");
 }
-.vAlignMid{
-    vertical-align:middle;
+
+.vAlignMid {
+    vertical-align: middle;
     color: white;
 }
+
 .centrar {
-     text-align: center;   
+    text-align: center;
 }
+
 .jumbotron {
-    background-color: #f3f3f3;
+    background-color: #fafafa;
 }
+
 #celeste {
     background-color: #40aef7;
-    color:white;
+    color: white;
 }
-.auxBody{
+
+.auxBody {
     background-color: #F0F0F0;
     color: #777;
 }
+
 #socialMedia {
     color: #40aef7;
+    margin-top: 50px;
+    margin-bottom: 35px;
 }
+
+#socialMedia div {
+    color: #0288D1;
+}
+
 footer {
     background-color: #194695;
     color: #f7e8e8;
     padding-bottom: 35px;
 }
+
 footer img {
     margin-right: 5px;
     margin-bottom: 10px;
