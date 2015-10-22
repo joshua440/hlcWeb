@@ -41,6 +41,7 @@ h1 i {
 }
 
 .auxBody {
+    paddin-top: 15px;
     background-color: #F0F0F0;
     color: #777;
 }
@@ -86,15 +87,7 @@ address a:visited {
 }
 
 .sombra {
-    width: 250px;
-    margin-right: 23px;
-    margin-left: 23px;
     border-radius: 0px;
-}
-
-.panel1 {
-    margin-left: 0px;
-    border: solid 1px #ea2f10;
 }
 
 .panel2 {
@@ -102,11 +95,6 @@ address a:visited {
 }
 
 .panel3 {
-    border: solid 1px #3c9a5f;
-}
-
-.panel4 {
-    margin-right: 0px;
     border: solid 1px #3c9a5f;
 }
 
@@ -137,9 +125,26 @@ address a:visited {
 
 .btnPanel {
     border-radius: 0px;
-    width: 90%;
+    width: auto;
     padding: 13px 0px;
     margin: 10px 13px;
     font-size: 22px;
     display: block;
+}
+
+.panel1 {
+    border: solid 1px #ea2f10;
+}
+
+.panel4 {
+    border: solid 1px #3c9a5f;
+}
+
+#paneles span {
+    font-size: 21px;
+    font-family: 'Calibri';
+}
+
+.justificado {
+    text-align: justify;
 }
