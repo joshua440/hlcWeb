@@ -13,3 +13,77 @@
 - git merge ramaJumbo
 - git push
 - git checkout -b imagenesCirc4
+- git pull 
+- git branch 
+- git checkout imagenesCirc4
+- git add . 
+- git commit -m "cuatro imagenes circulares agregadas"
+- git checkout master
+- git merge imagenesCirc4
+- git add . 
+- git commit -m "tres imagenes circulares agregadas"
+- git push
+- git branch iconos
+- git checkout iconos
+- git add . 
+- git commit -m "Social Media agregado."
+- git checkout master
+- git pull
+- git merge iconos
+- git add . 
+- git commit 
+- git checkout -b pie
+- git add . 
+- git commit -m "pie incorporado"
+- git merge pie
+- git push 
+- git checkout -b retoques
+- git checkout index.html
+- git checkout style.css
+- git add .
+- git commit -m "algunos detalles mejorados"
+- git checkout master
+- git merge retoques
+- git merge --abbort
+- git log --oneline
+- git revert 76d42cb
+- git add . 
+- git revert --continue
+- git log --oneline 
+- git resert --hard 76d42cb
+- git pull 
+- git merge retoques
+- git add . 
+- git commit -m "fusión con rama retoques"
+- git push 
+- git add . 
+- git commit -m "detallito del pie reparado"
+- git push
+- git checkout -b retoques2
+- git add . 
+- git commit -m "algún retoque más antes de irme a la cama, te lo dejo Joshua"
+- git checkout master
+- git merge retoques2
+- git push 
+- git pull 
+- git add . 
+- git commit -m "Sombras agregadas a paneles, pie acabado y algunos links agregados"
+- git checkout master
+- git merge retoques3
+- git push 
+- git checkout -b posicionamientoPaneles
+- git status 
+- git add . 
+- git commit -m "paneles bien posicionados" 
+- git checkout master
+- git merge posicionamientoPaneles
+- git push 
+- git checkout -b masRetoques
+- git add . 
+- git commit -m "Creo que esta acabada, sólo queda cambiar el tipo de letra"
+- git checkout master
+- git merge masRetoques
+- git push 
+- git add '.\Comandos Cristina.txt'
+- git commit -m "Actualizo y subo mis comandos Git"
+- git push
