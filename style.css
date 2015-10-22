@@ -22,7 +22,7 @@ h3 {
     font-size: 40px;
 }
 
-h1 i{
+h1 i {
     font-size: 120px;
 }
 
@@ -37,6 +37,7 @@ h1 i{
 #celeste {
     background-color: #40aef7;
     color: white;
+    margin-top: 30px;
 }
 
 .auxBody {
@@ -45,8 +46,6 @@ h1 i{
 }
 
 .panel {
-    padding-left: 15px;
-    padding-right: 15px;
     border: none;
 }
 
@@ -69,4 +68,78 @@ footer {
 footer img {
     margin-right: 5px;
     margin-bottom: 10px;
+}
+
+#boton {
+    border-radius: 0px;
+    font-size: 22px;
+    background-color: #AB6F0D;
+    border-color: #513201;
+}
+
+#boton:hover {
+    background-color: #935b01;
+}
+
+address a:visited {
+    color: #40aef7;
+}
+
+.sombra {
+    width: 250px;
+    margin-right: 23px;
+    margin-left: 23px;
+    border-radius: 0px;
+}
+
+.panel1 {
+    margin-left: 0px;
+    border: solid 1px #ea2f10;
+}
+
+.panel2 {
+    border: solid 1px #d08002;
+}
+
+.panel3 {
+    border: solid 1px #3c9a5f;
+}
+
+.panel4 {
+    margin-right: 0px;
+    border: solid 1px #3c9a5f;
+}
+
+.sombra:hover {
+    -webkit-box-shadow: 1px 5px 31px 4px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 1px 5px 31px 4px rgba(0, 0, 0, 0.22);
+    box-shadow: 1px 5px 31px 4px rgba(0, 0, 0, 0.22);
+}
+
+.panel,
+.panel-danger,
+.panel-heading,
+.panel-body,
+.panel-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.panel-heading {
+    border-radius: 0px;
+}
+
+.panel-footer {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: white;
+}
+
+.btnPanel {
+    border-radius: 0px;
+    width: 90%;
+    padding: 13px 0px;
+    margin: 10px 13px;
+    font-size: 22px;
+    display: block;
 }
