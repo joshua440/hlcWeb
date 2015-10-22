@@ -148,3 +148,7 @@ address a:visited {
 .justificado {
     text-align: justify;
 }
+
+.jumbotron p{
+    font-size: 25px;    
+}
